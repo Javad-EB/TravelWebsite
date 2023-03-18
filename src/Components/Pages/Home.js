@@ -1,10 +1,13 @@
 import React from 'react'
+import MainSection from '../MainSection/MainSection'
+import Cards from '../Cards/Cards'
 
 function Home() {
     return (
-        <h1>
-            Hello World
-        </h1>
+        <>
+            <MainSection />
+            <Cards />
+        </>
     )
 }
 

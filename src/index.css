@@ -1,6 +1,11 @@
+@font-face {
+  font-family: DearthDance;
+  src: local('DearthDance') url(./assets/fonts/DearthDance.ttf) format(truetype);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, DearthDance, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
