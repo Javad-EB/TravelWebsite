@@ -4,46 +4,46 @@ import CardItem from './CardItem'
 
 function Cards() {
     return (
-        <div className='cards'>
+        <div className="cards">
             <h1>Famous Places</h1>
-            <section className='cards__container'>
-                <article className='cards__wrapper'>
-                    <ul className='cards__items'>
+            <div className="cards__container">
+                <div className="cards__wrapper">
+                    <ul className="cards__items">
                         <CardItem
-                            path='/'
-                            label='unknown'
-                            src='images/9.jpg'
-                            text='Amazon Forest'
+                            src="images/9.jpg"
+                            label="Unknown"
+                            text="Stunning waterfall in the Amazon jungle"
+                            path="/dervices"
                         />
                         <CardItem
-                            path='/'
-                            label='unknown'
-                            src='images/8.jpg'
-                            text='Desert in IRAN'
+                            path="/dervices"
+                            label="Unknown"
+                            src="images/8.jpg"
+                            text="A beautiful desert with a caravan of amazing camels in IRAN"
                         />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            path='/'
-                            label='Luxury'
+                            path="/dervices"
+                            label="Luxury"
                             src='images/2.jpg'
-                            text='Caribbean island'
+                            text='Indescribable beaches of the Caribbean islands'
                         />
                         <CardItem
-                            path='/'
-                            label='Luxury'
-                            src='images/1.jpg'
-                            text='Alps mountains'
+                            path="/dervices"
+                            label="Luxury"
+                            src="images/1.jpg"
+                            text="A view of the sunset in the Alps"
                         />
                         <CardItem
-                            path='/'
-                            label='unknown'
-                            src='images/6.jpg'
-                            text='Visit a city'
+                            path="/dervices"
+                            label="Unknown"
+                            src="images/6.jpg"
+                            text="A different experience from traveling in tourist countries"
                         />
                     </ul>
-                </article>
-            </section>
+                </div>
+            </div>
         </div>
     )
 }

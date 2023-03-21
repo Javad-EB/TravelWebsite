@@ -22,9 +22,6 @@ h1 {
     margin: 50px 0 45px;
 }
 
-.card__items {
-    margin-bottom: 2rem;
-}
 
 .cards__item {
     margin-bottom: 24px;
@@ -63,13 +60,16 @@ h1 {
     position: absolute;
     bottom: 0;
     margin-left: 10px;
-    padding: 6px 8px;
-    max-width: calc((100%) - 60px);
+    padding: 10px 12px;
+    max-width: calc((100%) - 80px);
     font-size: 12px;
     font-weight: 700;
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
 }
 
 .cards__item__img {
@@ -97,8 +97,11 @@ h1 {
 
 .cards__item__text {
     color: #252e48;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
+}
+.cards__items {
+    margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 1200px) {

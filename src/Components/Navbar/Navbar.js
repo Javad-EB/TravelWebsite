@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlaneDeparture, faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
@@ -10,6 +10,9 @@ function Navbar() {
     const menuHandler = () => setMenuState(!menuState)
     const closeMobileMenu = () => setMenuState(false)
     const [btnState, setBtnState] = useState(true)
+    useEffect(() => {
+        handleBtn()
+    }, [])
     const handleBtn = () => {
         if (window.innerWidth <= 960) {
             setBtnState(false)
@@ -53,7 +56,7 @@ function Navbar() {
                 </ul>
                 {
                     btnState ?
-                        <Button to="/" btbStyle='btn--outline'>
+                        <Button to="/" btnStyle='btn--outline'>
                             Register
                         </Button> : null
                 }
