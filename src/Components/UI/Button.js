@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Button.css'
 
-const Styles = ['btn--primary', 'btn--outline', 'btn--special', 'btn--search', 'btn--tour', '.btn--search--place']
+const Styles = ['btn--primary', 'btn--outline', 'btn--special', 'btn--search', 'btn--tour', 'btn--search--place']
 const Sizes = ['btn--medium', 'btn--large']
 function Button(props) {
     const { to, children, btnStyle, btnSize } = props
