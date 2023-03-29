@@ -23,7 +23,7 @@
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
-    font-family: IRANSans;
+    font-family: DearthDance;
     text-align: center;
     justify-content: center;
     color: #fff;
@@ -58,10 +58,11 @@
 .products h1 {
     color: #fff;
     font-size: 24px;
-    font-family: IRANSans;
+    font-family: DearthDance;
 }
 
 .sign-up {
+    background-image: url(../public/images/8.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

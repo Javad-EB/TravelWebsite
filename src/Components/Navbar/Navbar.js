@@ -43,12 +43,12 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/tour' className='nav-links' onClick={closeMobileMenu}>
                             Travel Tour
                         </Link>
                     </li>
                     <li className=''>
-                        <Link to='/' className='nav-links-mobile' onClick={closeMobileMenu}>
+                        <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                             Register
                         </Link>
                     </li>
@@ -56,7 +56,7 @@ function Navbar() {
                 </ul>
                 {
                     btnState ?
-                        <Button to="/" btnStyle='btn--outline'>
+                        <Button to="/sign-up" btnStyle='btn--outline'>
                             Register
                         </Button> : null
                 }
