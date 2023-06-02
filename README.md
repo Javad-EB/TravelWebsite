@@ -1,4 +1,4 @@
-LIVE Ver : https://delicate-haupia-d07800.netlify.app/
+[LIVE Ver](https://delicate-haupia-d07800.netlify.app)
 
 # Getting Started with Create React App
 
